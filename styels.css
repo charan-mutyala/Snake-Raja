@@ -1,0 +1,42 @@
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background:url(./bg3.jpg);
+    display: flex;
+    min-height: 60vh;
+    background-size: 100vw,85vh;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    height: 600px;
+    background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
+    border: 4px solid black;
+  }
+  .name{
+    text-align: center;
+    font-size:200%;
+    position: absolute;
+    margin-top: -880px;
+    margin-left: 15px;
+    
+  }
+  .food{
+    background: linear-gradient(red, purple);
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
+#score{
+  position: absolute;
+  top: 59px;
+  right: 140px;
+  font-size: 39px;
+  font-weight: bold;
+  font-family: 'New Tegomin', serif;
+}
+  
